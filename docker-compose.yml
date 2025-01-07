@@ -1,0 +1,6 @@
+services:
+  web:
+    container_name: test_react
+    image: nginx:latest
+    volumes:
+      -./dist:/usr/share
